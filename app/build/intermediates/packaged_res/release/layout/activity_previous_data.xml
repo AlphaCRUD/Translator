@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreviousData">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/llNativeLarge">
+
+        <RelativeLayout
+            android:id="@+id/rlTop"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/top_bar_bg_straight">
+
+                <ImageButton
+                    android:id="@+id/btnBack"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_arrow_white" />
+
+                <TextView
+                    android:id="@+id/txtTop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/btnBack"
+                    android:fontFamily="@font/quicksandsemibold"
+                    android:gravity="center_vertical"
+                    android:includeFontPadding="false"
+                    android:text="Previous Scans"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rlTT"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/rlTop"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/purple_200">
+
+
+            <ImageView
+                android:id="@+id/ivTT"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:src="@mipmap/ic_launcher" />
+
+
+            <TextView
+                android:id="@+id/tvTT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:layout_toRightOf="@id/ivTT"
+                android:fontFamily="@font/quicksandregular"
+                android:text="Text Translator"
+                android:textColor="@color/white"
+                android:textSize="22dp" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/tvTT"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvOpenTT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/bg_white"
+                    android:fontFamily="@font/quicksandregular"
+                    android:paddingStart="10dp"
+                    android:paddingTop="2dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="5dp"
+                    android:text="Open"
+                    android:textColor="@color/gnt_blue"
+                    android:textSize="16dp" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rlTT">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/white_rounded"
+                    android:elevation="1dp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+        <LinearLayout
+            android:id="@+id/linearNo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rlTop"
+            android:background="@drawable/white_rounded"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_not_interested_24"
+                android:visibility="gone" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation_view2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/empty_history" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksandregular"
+                android:text="Nothing found!"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <!--    <com.google.android.ads.nativetemplates.TemplateView-->
+        <!--        android:id="@+id/nativeTemplateView"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_alignParentBottom="true"-->
+        <!--        android:layout_marginStart="10dp"-->
+        <!--        android:layout_marginTop="10dp"-->
+        <!--        android:layout_marginEnd="10dp"-->
+        <!--        android:layout_marginBottom="15dp"-->
+        <!--        app:gnt_template_type="@layout/gnt_small_template_view" />-->
+        <LinearLayout
+            android:id="@+id/linearAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="2dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <!--        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+            <!--            android:id="@+id/adView"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_alignParentBottom="true"-->
+            <!--            android:layout_centerHorizontal="true"-->
+            <!--            ads:adSize="BANNER"-->
+            <!--            ads:adUnitId="@string/admob_banner_id"></com.google.android.gms.ads.AdView>-->
+
+            <ProgressBar
+                android:id="@+id/progressed"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/gallery"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksandregular"
+                android:text="Add"
+                android:textColor="@color/mainColor"
+                android:textSize="14dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llNativeLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+</RelativeLayout>

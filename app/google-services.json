@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "574424029929",
+    "project_id": "photo-translator-4ca32",
+    "storage_bucket": "photo-translator-4ca32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574424029929:android:8712817c5e3f32171d2e78",
+        "android_client_info": {
+          "package_name": "com.alphacrud.phototranslator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574424029929-4bkd047aim1ihbm6bui0ga0v722klqud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmZO9Oix_KYXbo0ttJueTP1XNYBuSsZQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574424029929-4bkd047aim1ihbm6bui0ga0v722klqud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

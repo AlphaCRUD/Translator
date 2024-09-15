@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\nativetemplates\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\MT\\.gradle\\caches\\transforms-3\\4dbcaba6cfddcb100b9a6a3a3fa50197\\transformed\\appcompat-1.2.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\nativetemplates\\build\\intermediates\\merged_res\\release\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\MT\\.gradle\\caches\\transforms-3\\4dbcaba6cfddcb100b9a6a3a3fa50197\\transformed\\appcompat-1.2.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

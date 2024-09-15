@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\nativetemplates\\build\\intermediates\\merged_res\\release\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\MT\\.gradle\\caches\\transforms-3\\4dbcaba6cfddcb100b9a6a3a3fa50197\\transformed\\appcompat-1.2.0\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\nativetemplates\\build\\intermediates\\merged_res\\release\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\MT\\.gradle\\caches\\transforms-3\\4dbcaba6cfddcb100b9a6a3a3fa50197\\transformed\\appcompat-1.2.0\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\nativetemplates\\build\\intermediates\\merged_res\\release\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\MT\\.gradle\\caches\\transforms-3\\4dbcaba6cfddcb100b9a6a3a3fa50197\\transformed\\appcompat-1.2.0\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\nativetemplates\\build\\intermediates\\merged_res\\release\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\MT\\.gradle\\caches\\transforms-3\\4dbcaba6cfddcb100b9a6a3a3fa50197\\transformed\\appcompat-1.2.0\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\nativetemplates\\build\\intermediates\\merged_res\\release\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\MT\\.gradle\\caches\\transforms-3\\4dbcaba6cfddcb100b9a6a3a3fa50197\\transformed\\appcompat-1.2.0\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\nativetemplates\\build\\intermediates\\merged_res\\release\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\MT\\.gradle\\caches\\transforms-3\\4dbcaba6cfddcb100b9a6a3a3fa50197\\transformed\\appcompat-1.2.0\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\nativetemplates\\build\\intermediates\\merged_res\\release\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\MT\\.gradle\\caches\\transforms-3\\4dbcaba6cfddcb100b9a6a3a3fa50197\\transformed\\appcompat-1.2.0\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\nativetemplates\\build\\intermediates\\merged_res\\release\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\MT\\.gradle\\caches\\transforms-3\\4dbcaba6cfddcb100b9a6a3a3fa50197\\transformed\\appcompat-1.2.0\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\nativetemplates\\build\\intermediates\\merged_res\\release\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\MT\\.gradle\\caches\\transforms-3\\4dbcaba6cfddcb100b9a6a3a3fa50197\\transformed\\appcompat-1.2.0\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\nativetemplates\\build\\intermediates\\merged_res\\release\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\MT\\.gradle\\caches\\transforms-3\\4dbcaba6cfddcb100b9a6a3a3fa50197\\transformed\\appcompat-1.2.0\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\nativetemplates\\build\\intermediates\\merged_res\\release\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\MT\\.gradle\\caches\\transforms-3\\4dbcaba6cfddcb100b9a6a3a3fa50197\\transformed\\appcompat-1.2.0\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\nativetemplates\\build\\intermediates\\merged_res\\release\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\MT\\.gradle\\caches\\transforms-3\\4dbcaba6cfddcb100b9a6a3a3fa50197\\transformed\\appcompat-1.2.0\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\nativetemplates\\build\\intermediates\\merged_res\\release\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\MT\\.gradle\\caches\\transforms-3\\4dbcaba6cfddcb100b9a6a3a3fa50197\\transformed\\appcompat-1.2.0\\res\\color\\abc_primary_text_material_dark.xml"
+    }
+]

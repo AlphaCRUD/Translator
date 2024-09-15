@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".ExitActivity">
+
+
+    <ImageView
+        android:id="@+id/icClose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="15dp"
+        android:src="@drawable/ic_close" />
+
+    <ImageView
+        android:id="@+id/ivIc"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+
+    <TextView
+        android:id="@+id/tvTT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivIc"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/quicksandregular"
+        android:text="Photo Translator"
+        android:textColor="@color/mainColor"
+        android:textSize="24dp" />
+
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTT"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:numStars="5"
+        android:progressTint="#FFC107"
+        android:rating="5" />
+
+
+    <TextView
+        android:id="@+id/tvRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rating_bar"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="15dp"
+        android:fontFamily="@font/quicksandregular"
+        android:text="Please Rate Us"
+        android:textColor="@color/mainColor"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/tvExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvRate"
+        android:layout_marginTop="40dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="15dp"
+        android:fontFamily="@font/quicksandregular"
+        android:text="Do you want to Exit?"
+        android:textColor="@color/mainColor"
+        android:textSize="24dp" />
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/tvExit"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:id="@+id/rlYes"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/purple_200"
+            android:elevation="1dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/quicksandregular"
+                android:gravity="center"
+                android:text="Yes"
+                android:textColor="@color/white"
+                android:textSize="22dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/purple_200"
+            android:elevation="1dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:fontFamily="@font/quicksandregular"
+                android:text="No"
+                android:textColor="@color/white"
+                android:textSize="22dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/nativeAd"
+        android:layout_width="match_parent"
+        android:layout_below="@id/linear"
+        android:gravity="bottom"
+        android:layout_height="match_parent"/>
+
+
+</RelativeLayout>

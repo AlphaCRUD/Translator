@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/privact"
+        android:title="Privacy Policy"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_review"
+        android:enabled="true"
+        android:icon="@drawable/review"
+        android:title="Review" />
+
+    <item
+        android:id="@+id/switchSupplier"
+        android:title="Exit"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="af" ns1:ignore="MissingDefaultResource">#ffac5c</color>
+    <color name="black">#FF000000</color>
+    <color name="colorBAck">#f2f2f2</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="gary">#777777</color>
+    <color name="grayTextColor">#9C9A9A</color>
+    <color name="grayborder">#f2f2f2</color>
+    <color name="ic_launcher_background">#FCFDFC</color>
+    <color name="mainColor">#3b7cf5</color>
+    <color name="mainColor2">#2557B5</color>
+    <color name="purple_200">#68D6FF</color>
+    <color name="purple_500">#68D6FF</color>
+    <color name="purple_700">#68D6FF</color>
+    <color name="shadowColor">#D8D6D6</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFEB3B</color>
+    <string name="admob_app_id">ca-app-pub-3979039231622358~8659598698</string>
+    <string name="app_name">Photo Translator</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="default_web_client_id" translatable="false">574424029929-4bkd047aim1ihbm6bui0ga0v722klqud.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">574424029929</string>
+    <string name="google_api_key" translatable="false">AIzaSyDmZO9Oix_KYXbo0ttJueTP1XNYBuSsZQ8</string>
+    <string name="google_app_id" translatable="false">1:574424029929:android:8712817c5e3f32171d2e78</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDmZO9Oix_KYXbo0ttJueTP1XNYBuSsZQ8</string>
+    <string name="google_storage_bucket" translatable="false">photo-translator-4ca32.appspot.com</string>
+    <string name="nav_close">Close</string>
+    <string name="nav_open">Open</string>
+    <string name="project_id" translatable="false">photo-translator-4ca32</string>
+    <style name="SplashTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">@color/white</item>
+    </style>
+    <style name="Theme.PhotoTranslator" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mainColor</item>
+        <item name="colorPrimaryVariant">@color/mainColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

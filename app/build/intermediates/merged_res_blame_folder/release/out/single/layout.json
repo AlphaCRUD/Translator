@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_camera_kit.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\activity_camera_kit.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_scan_result.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\activity_scan_result.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\ad_unified_medium.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\ad_unified_medium.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_camera.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\activity_camera.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_camera_x.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\activity_camera_x.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\ad_unified_small.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\ad_unified_small.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\dialog_select_language.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\dialog_select_language.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_home.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_exit.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\activity_exit.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_previous_data.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\activity_previous_data.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\layout_language.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\layout_language.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\layout_share.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\layout_share.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_privacy_policy.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\activity_privacy_policy.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_text_translator.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\activity_text_translator.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_ocractivity.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\activity_ocractivity.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_share.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\activity_share.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\home_layout.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\home_layout.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_adds.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\activity_adds.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\dialog_pdfs.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\dialog_pdfs.xml"
+    },
+    {
+        "merged": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\previous_scan_layout.xml",
+        "source": "D:\\AlphaCRUD\\Photo Translator\\2.0\\App_PhotoTranslator-main\\app\\src\\main\\res\\layout\\previous_scan_layout.xml"
+    }
+]

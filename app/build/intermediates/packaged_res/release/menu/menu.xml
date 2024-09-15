@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_favorites"
+        android:enabled="true"
+        android:icon="@drawable/gl"
+        android:title="Gallery" />
+
+    <item
+        android:id="@+id/action_schedules1"
+        android:enabled="true"
+        android:icon="@drawable/his"
+        android:title="History" />
+</menu>

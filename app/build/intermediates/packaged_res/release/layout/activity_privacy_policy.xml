@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layoutDirection="ltr"
+
+
+            >
+
+
+            <TextView
+                android:id="@+id/Headingone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+                android:fontFamily="@font/quicksandmedium"
+                android:gravity="center"
+                android:text="Privacy Policy"
+                android:textColor="@color/black"
+                android:textDirection="ltr"
+                android:textSize="15dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/c1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Headingone"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="2dp"
+                android:fontFamily="@font/quicksandregular"
+                android:justificationMode="inter_word"
+                android:textColor="@color/gary"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/Headingtwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/c1"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+                android:fontFamily="@font/quicksandsemibold"
+                android:gravity="center"
+                android:text="Lorem ipsum:"
+                android:textColor="@color/black"
+                android:textDirection="ltr"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/c2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Headingtwo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="15dp"
+                android:visibility="gone"
+                android:layout_marginRight="2dp"
+                android:fontFamily="@font/quicksandregular"
+                android:justificationMode="inter_word"
+                android:text="In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. It is also used to temporarily replace text in a process called greeking, which allows designers to consider the form of a webpage or publication, without the meaning of the text influencing the design."
+                android:textColor="@color/gary"
+                android:textSize="12dp" />
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

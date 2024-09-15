@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Photo Translator</string>
+
+
+
+    <string name="admob_app_id">ca-app-pub-3979039231622358~8659598698</string>
+
+<!--ca-app-pub-3940256099942544~3347511713-->
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>

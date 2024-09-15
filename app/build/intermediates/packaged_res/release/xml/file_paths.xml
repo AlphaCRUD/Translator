@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path
+        name="Documents"
+        path="." />
+    <external-path
+        name="txt"
+        path="." />
+
+    <external-files-path
+        name="my_images"
+        path="/" />
+</paths>
